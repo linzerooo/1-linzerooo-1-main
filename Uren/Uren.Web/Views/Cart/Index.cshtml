@@ -1,0 +1,205 @@
+﻿@model IEnumerable<Finate.Domain.Entities.CartItem>
+@{
+    ViewData["Title"] = "Your Cart";
+    var totalPrice = Model.Sum(item => item.ProductCard.Price * item.Quantity);
+}
+<h2>Your Cart</h2>
+
+<div class="cart-container">
+    <div class="cart-table-wrapper">
+        <table class="table cart-table" style="margin-top: 20px">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            <form asp-action="RemoveFromCart" method="post">
+                                <input type="hidden" name="cardId" value="@item.ProductCard.Id" />
+                                <button type="submit" class="btn-remove">&times;</button>
+                            </form>
+                        </td>
+                        <td>
+                            <div class="product-info">
+                                <img src="@item.ProductCard.ImageSrc.First()" alt="Image of @item.ProductCard.CardName" class="product-image" />
+                                <span>@item.ProductCard.CardName</span>
+                            </div>
+                        </td>
+                        <td>$@item.ProductCard.Price</td>
+                        <td>
+                            <div class="quantity-wrapper">
+                                <button class="quantity-btn">-</button>
+                                <input type="text" value="@item.Quantity" class="quantity-input" />
+                                <button class="quantity-btn">+</button>
+                            </div>
+                        </td>
+                        <td>$@(item.ProductCard.Price * item.Quantity)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="coupon-wrapper">
+            <input type="text" placeholder="Coupon code" class="coupon-input" />
+            <button class="btn-coupon">Apply coupon</button>
+            <button class="btn-update">Update cart</button>
+        </div>
+    </div>
+
+    <div class="cart-totals-wrapper">
+        <div class="cart-totals">
+            <h3>Cart totals</h3>
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$@totalPrice</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>
+                        Enter Your Address To View Shipping Options.<br />
+                        <a href="#" class="calculate-shipping">Calculate shipping</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$@totalPrice</td>
+                </tr>
+            </table>
+            <button class="btn-checkout">Proceed to checkout</button>
+        </div>
+    </div>
+</div>
+
+<form asp-action="ClearCart" method="post">
+    <button type="submit" class="btn-clear">Clear Cart</button>
+</form>
+
+<style>
+    .cart-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 200px;
+    }
+
+    .cart-table-wrapper {
+        flex: 0 0 65%;
+    }
+
+    .cart-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .cart-table th, .cart-table td {
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+        }
+
+    .product-info {
+        display: flex;
+        align-items: center;
+    }
+
+    .product-image {
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .quantity-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .quantity-input {
+        width: 40px;
+        text-align: center;
+    }
+
+    .quantity-btn {
+        background-color: #f0f0f0;
+        border: none;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .btn-remove {
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .coupon-wrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .coupon-input {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #e0e0e0;
+    }
+
+    .btn-coupon, .btn-update {
+        padding: 10px 20px;
+        margin-left: 10px;
+        background-color: #ffb400;
+        border: none;
+        cursor: pointer;
+    }
+
+    .cart-totals-wrapper {
+        flex: 0 0 30%;
+    }
+
+    .cart-totals {
+        border: 1px solid #e0e0e0;
+        padding: 20px;
+    }
+
+        .cart-totals table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .cart-totals td {
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+        }
+
+    .btn-checkout {
+        width: 100%;
+        padding: 10px;
+        background-color: #ffb400;
+        border: none;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .calculate-shipping {
+        color: #ffb400;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .btn-clear {
+        margin-top: 20px;
+        background-color: #ff4d4d;
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        cursor: pointer;
+    }
+</style>

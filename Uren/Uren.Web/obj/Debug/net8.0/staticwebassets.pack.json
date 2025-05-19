@@ -1,0 +1,645 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Finate.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Finate.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\css\\aos.min.css",
+      "PackagePath": "staticwebassets\\css\\aos.min.css"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\css\\fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\css\\icofont.css"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\css\\swiper.min.css",
+      "PackagePath": "staticwebassets\\css\\swiper.min.css"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\fonts\\icofont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\icofont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\Profile.png",
+      "PackagePath": "staticwebassets\\img\\Profile.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\about\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\about\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\about\\member1.png",
+      "PackagePath": "staticwebassets\\img\\about\\member1.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\about\\member2.png",
+      "PackagePath": "staticwebassets\\img\\about\\member2.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\about\\member3.png",
+      "PackagePath": "staticwebassets\\img\\about\\member3.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\about\\member4.png",
+      "PackagePath": "staticwebassets\\img\\about\\member4.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\a1.png",
+      "PackagePath": "staticwebassets\\img\\blog\\a1.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\a2.png",
+      "PackagePath": "staticwebassets\\img\\blog\\a2.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\a3.png",
+      "PackagePath": "staticwebassets\\img\\blog\\a3.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\details1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\details2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\h1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\h1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\s1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\s1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\s2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\s2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\s3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\s3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\blog\\s4.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\s4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\brand-logo\\1.png",
+      "PackagePath": "staticwebassets\\img\\brand-logo\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\brand-logo\\2.png",
+      "PackagePath": "staticwebassets\\img\\brand-logo\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\brand-logo\\3.png",
+      "PackagePath": "staticwebassets\\img\\brand-logo\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\brand-logo\\4.png",
+      "PackagePath": "staticwebassets\\img\\brand-logo\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\brand-logo\\5.png",
+      "PackagePath": "staticwebassets\\img\\brand-logo\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\brand-logo\\6.png",
+      "PackagePath": "staticwebassets\\img\\brand-logo\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\10.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\11.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\9.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\w1.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\w1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\w2.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\w2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\w3.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\w3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\w4.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\w4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\w5.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\w5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\w6.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\w6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\w7.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\w7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\w8.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\w8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\companies\\w9.jpg",
+      "PackagePath": "staticwebassets\\img\\companies\\w9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\arrow-down.png",
+      "PackagePath": "staticwebassets\\img\\icons\\arrow-down.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\bookmark1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\bookmark1.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\bookmark2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\bookmark2.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\c1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\c1.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\c2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\c2.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\c3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\c3.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\cancel-white.png",
+      "PackagePath": "staticwebassets\\img\\icons\\cancel-white.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\fun1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\fun1.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\play.png",
+      "PackagePath": "staticwebassets\\img\\icons\\play.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\quote1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\quote1.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\right-arrow.png",
+      "PackagePath": "staticwebassets\\img\\icons\\right-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\right-arrow2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\right-arrow2.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\w1-hover.png",
+      "PackagePath": "staticwebassets\\img\\icons\\w1-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\w1.png",
+      "PackagePath": "staticwebassets\\img\\icons\\w1.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\w2-hover.png",
+      "PackagePath": "staticwebassets\\img\\icons\\w2-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\w2.png",
+      "PackagePath": "staticwebassets\\img\\icons\\w2.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\w3-hover.png",
+      "PackagePath": "staticwebassets\\img\\icons\\w3-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\w3.png",
+      "PackagePath": "staticwebassets\\img\\icons\\w3.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\w4-hover.png",
+      "PackagePath": "staticwebassets\\img\\icons\\w4-hover.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\icons\\w4.png",
+      "PackagePath": "staticwebassets\\img\\icons\\w4.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\logo-light-theme.png",
+      "PackagePath": "staticwebassets\\img\\logo-light-theme.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\logo-light.png",
+      "PackagePath": "staticwebassets\\img\\logo-light.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\photos\\404.png",
+      "PackagePath": "staticwebassets\\img\\photos\\404.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\photos\\BadRequest.jpg",
+      "PackagePath": "staticwebassets\\img\\photos\\BadRequest.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\photos\\SomethingWentWrong.jpg",
+      "PackagePath": "staticwebassets\\img\\photos\\SomethingWentWrong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\photos\\bg1.jpg",
+      "PackagePath": "staticwebassets\\img\\photos\\bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\photos\\bg2.jpg",
+      "PackagePath": "staticwebassets\\img\\photos\\bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\photos\\google-play.png",
+      "PackagePath": "staticwebassets\\img\\photos\\google-play.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\photos\\mac-os.png",
+      "PackagePath": "staticwebassets\\img\\photos\\mac-os.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\slider\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\slider\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\slider\\vector1.png",
+      "PackagePath": "staticwebassets\\img\\slider\\vector1.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\slider\\vector2.png",
+      "PackagePath": "staticwebassets\\img\\slider\\vector2.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\slider\\vector3.png",
+      "PackagePath": "staticwebassets\\img\\slider\\vector3.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\slider\\vector4.png",
+      "PackagePath": "staticwebassets\\img\\slider\\vector4.png"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\team\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\team\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\team\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\team\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\team\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\team\\details1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\details1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\testimonial\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\testimonial\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\testimonial\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\testimonial\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\img\\testimonial\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\aos.min.js",
+      "PackagePath": "staticwebassets\\js\\aos.min.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\counterup.js",
+      "PackagePath": "staticwebassets\\js\\counterup.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\fancybox.min.js",
+      "PackagePath": "staticwebassets\\js\\fancybox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\jquery-main.js",
+      "PackagePath": "staticwebassets\\js\\jquery-main.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\jquery-migrate.js",
+      "PackagePath": "staticwebassets\\js\\jquery-migrate.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\js\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\swiper.min.js",
+      "PackagePath": "staticwebassets\\js\\swiper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\js\\waypoint.js",
+      "PackagePath": "staticwebassets\\js\\waypoint.js"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\_tableofcontent.scss",
+      "PackagePath": "staticwebassets\\scss\\_tableofcontent.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\common\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\common\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\common\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\common\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\common\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\common\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\common\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\common\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_about.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_about.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_banner.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_banner.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_blog.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_brand-logo.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_brand-logo.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_category.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_category.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_common.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_common.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_contact.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_divider.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_form.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_form.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_funfact.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_funfact.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_offcanvas-menu.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_offcanvas-menu.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_page-header.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_page-header.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_page-not-found.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_page-not-found.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_section-title.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_section-title.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_services.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_services.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_team.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_team.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_testimonial.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_testimonial.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\componenets\\_working-process.scss",
+      "PackagePath": "staticwebassets\\scss\\componenets\\_working-process.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\footer\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\footer\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\header\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\header\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\79991\\Finate\\Finate\\Finate.Web\\wwwroot\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Finate.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Finate.Web.props",
+      "PackagePath": "build\\Finate.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Finate.Web.props",
+      "PackagePath": "buildMultiTargeting\\Finate.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Finate.Web.props",
+      "PackagePath": "buildTransitive\\Finate.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

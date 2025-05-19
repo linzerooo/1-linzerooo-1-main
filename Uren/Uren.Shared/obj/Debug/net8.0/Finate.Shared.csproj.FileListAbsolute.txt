@@ -1,0 +1,16 @@
+C:\Users\79991\Finate\Finate\Finate.Shared\bin\Debug\net8.0\Finate.Shared.deps.json
+C:\Users\79991\Finate\Finate\Finate.Shared\bin\Debug\net8.0\Finate.Shared.dll
+C:\Users\79991\Finate\Finate\Finate.Shared\bin\Debug\net8.0\Finate.Shared.pdb
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\Finate.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\Finate.Shared.AssemblyInfoInputs.cache
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\Finate.Shared.AssemblyInfo.cs
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\Finate.Shared.csproj.CoreCompileInputs.cache
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\Finate.Shared.sourcelink.json
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\Finate.Shared.dll
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\refint\Finate.Shared.dll
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\Finate.Shared.pdb
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\ref\Finate.Shared.dll
+C:\Users\79991\Finate\Finate\Finate.Shared\bin\Debug\net8.0\Finate.Domain.dll
+C:\Users\79991\Finate\Finate\Finate.Shared\bin\Debug\net8.0\Finate.Domain.pdb
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\Finate.Shared.csproj.AssemblyReference.cache
+C:\Users\79991\Finate\Finate\Finate.Shared\obj\Debug\net8.0\Finate.Shared.csproj.CopyComplete

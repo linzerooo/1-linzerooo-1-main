@@ -1,0 +1,216 @@
+﻿@using Finate.Domain.Enums
+@model Shared.Requests.Candidates.GetCandidateFormById.GetCandidateFormByIdResponse
+
+@{
+    ViewBag.Title = "Finate - Candidate";
+    Layout = "_Layout";
+}
+
+    <!--== Start Page Header Area Wrapper ==-->
+    <div class="page-header-area sec-overlay sec-overlay-black" data-bg-img="assets/img/photos/bg2.jpg">
+      <div class="container pt--0 pb--0">
+        <div class="row">
+          <div class="col-12">
+            <div class="page-header-content">
+              <h2 class="title">Candidate Details</h2>
+              <nav class="breadcrumb-area">
+                <ul class="breadcrumb justify-content-center">
+                  <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                  <li class="breadcrumb-sep">//</li>
+                  <li>Candidate Details</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--== End Page Header Area Wrapper ==-->
+
+    <!--== Start Team Details Area Wrapper ==-->
+    <section class="team-details-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="team-details-wrap">
+              <div class="team-details-info">
+                <div class="thumb">
+                  <img src="~/img/team/details1.jpg" width="130" height="130" alt="Image-HasTech">
+                </div>
+                <div class="content">
+                  <h4 class="title">@Model.FullName</h4>
+                  <h5 class="sub-title">@Model.ProfessionName</h5>
+                  <ul class="info-list">
+                    <li><i class="icofont-location-pin"></i>@Model.PlaceAddress</li>
+                    <li><i class="icofont-phone"></i>@Model.PhoneNumber</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 col-xl-8">
+            <div class="team-details-item">
+              <div class="content">
+                <h4 class="title">About Candidate</h4>
+                <p class="desc">@Model.AboutCandidate</p>
+              </div>
+              <div class="candidate-details-wrap">
+                <h4 class="content-title">Education</h4>
+                <div class="candidate-details-content">
+                  @foreach (var educationItem in Model.Experiences.Where(x => x.ExperienceType == ExperienceType.Education.ToString()))
+                  {
+                    <div class="content-item">
+                      <h4 class="title">@educationItem.ProfessionName <span>//</span> <span>@educationItem.StartYear - @educationItem.EndYear</span></h4>
+                      <h5 class="sub-title">@educationItem.PlaceName</h5>
+                      <p class="desc">@educationItem.Description</p>
+                    </div>
+                  }
+                </div>
+              </div>
+              <div class="candidate-details-wrap">
+                <h4 class="content-title">Work & Experience</h4>
+                <div class="candidate-details-content">
+                  @foreach (var educationItem in Model.Experiences
+                              .Where(x => x.ExperienceType == ExperienceType.Work.ToString()))
+                  {
+                  <div class="content-item">
+                    <h4 class="title">@educationItem.ProfessionName <span>//</span> <span>@educationItem.StartYear - @educationItem.EndYear</span></h4>
+                    <h5 class="sub-title">@educationItem.PlaceName</h5>
+                    <p class="desc">@educationItem.Description</p>
+                  </div>
+                  }
+                </div>
+              </div>
+              <div class="content-list-wrap">
+                <div class="content mb--0">
+                  <h4 class="title">Professional Skills</h4>
+                  <ul class="team-details-list mb--0">
+                    @foreach (var professionalSkill in Model.SkillTypesAndSkills
+                                .Where(x => x.Key == SkillType.SoftSkill.ToString())
+                                .Select(x => x.Value))
+                    {
+                      <li><i class="icofont-check"></i>@professionalSkill</li>
+                    }
+                  </ul>
+                </div>
+                <div class="content mb--0">
+                  <h4 class="title">Software Skills</h4>
+                  <ul class="team-details-list mb--0">
+                    @foreach (var professionalSkill in Model.SkillTypesAndSkills
+                    .Where(x => x.Key == SkillType.HardSkill.ToString())
+                    .Select(x => x.Value))
+                    {
+                      <li><i class="icofont-check"></i>@professionalSkill</li>
+                    }
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-xl-4">
+            <div class="team-sidebar">
+              <div class="widget-item">
+                <div class="widget-title">
+                  <h3 class="title">Information</h3>
+                </div>
+                <div class="summery-info">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td class="table-name">Category</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.Category</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Offered Salary</td>
+                        <td class="dotted">:</td>
+                        <td>$@Model.Salary / Monthly</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Experience</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.ExperienceInYears Years</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Language</td>
+                        <td class="dotted">:</td>
+                        <td>@{ string.Join(", ", Model.Languages); }</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Age</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.Age Years</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Gender</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.Gender</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Level</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.Level</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Views</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.Views</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="widget-item">
+                <div class="widget-title">
+                  <h3 class="title">Share With</h3>
+                </div>
+                <div class="social-icons">
+                  @foreach (var link in Model.SocialNetworksAndLinks)
+                  {
+                    <a href="@link.Value" target="_blank" rel="noopener"><i class="@link.Key"></i></a>
+                  }
+                  </div>
+              </div>
+              @* <div class="widget-item widget-contact"> *@
+              @*   <div class="widget-title"> *@
+              @*     <h3 class="title">Contact Now</h3> *@
+              @*   </div> *@
+              @*   <div class="widget-contact-form"> *@
+              @*     <form id="contact-form" asp-controller="Contact" asp-action="SendEmail" method="POST"> *@
+              @*       <input type="hidden" asp-for=""/> *@
+              @*       <div class="row"> *@
+              @*         <div class="col-md-12"> *@
+              @*           <div class="form-group"> *@
+              @*             <input class="form-control" type="text" name="con_name" placeholder="Name:"> *@
+              @*           </div> *@
+              @*         </div> *@
+              @*         <div class="col-md-12"> *@
+              @*           <div class="form-group"> *@
+              @*             <input class="form-control" type="email" name="con_email" placeholder="Email:"> *@
+              @*           </div> *@
+              @*         </div> *@
+              @*         <div class="col-md-12"> *@
+              @*           <div class="form-group"> *@
+              @*             <textarea class="form-control" name="con_message" placeholder="Message"></textarea> *@
+              @*           </div> *@
+              @*         </div> *@
+              @*         <div class="col-md-12"> *@
+              @*           <div class="form-group mb--0"> *@
+              @*             <button class="btn-theme d-block w-100" type="submit">Send Message</button> *@
+              @*           </div> *@
+              @*         </div> *@
+              @*       </div> *@
+              @*     </form> *@
+              @* *@
+              @*     <!--== Message Notification ==--> *@
+              @*     <div class="form-message"></div> *@
+              @*   </div> *@
+              @* </div> *@
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Team Details Area Wrapper ==-->

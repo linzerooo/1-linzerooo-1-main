@@ -1,0 +1,25 @@
+﻿@model Shared.Requests.Shop.GetShop.ShopModel
+
+<h2>Create New Product Card</h2>
+
+<form asp-action="Create" method="post" style="margin-top: 200px">
+    <div>
+        <label>Card Name</label>
+        <input asp-for="CardName" />
+    </div>
+    <div>
+        <label>Description</label>
+        <textarea asp-for="Description"></textarea>
+    </div>
+    <div>
+        <label>Image URL</label>
+        <input asp-for="ImageSrc" />
+    </div>
+    <div>
+        <label>Price</label>
+        <input asp-for="Price" />
+    </div>
+    <button type="submit">Create</button>
+</form>
+
+<a href="@Url.Action("Index")">Back to List</a>

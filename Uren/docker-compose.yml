@@ -1,0 +1,28 @@
+﻿services:
+  finate.web:
+    build:
+      context: .
+      dockerfile: Finate.Web/Dockerfile
+    ports:
+      - "2323:8080"
+      - "2424:8081"
+  minio: #как назовем контейнер
+    image: minio/minio:latest #docker image from docker hub
+      #(вроде должно само скачаться, если не скачано)
+      #вместо latest в проде следует использовать
+    #конкретную версию, на которой было протестировано,
+    #а то он упадет когда-нибудь.
+
+    command: server --console-address ":9001" /data/
+
+    ports: #проброс портов.
+      - "9050:9070" #с хоста можно отправить запрос в http(s)://localhost:9050,
+      #он придет в 9070 порт внутри контейнера (если EXPOSEd)
+      - "9000:9000"
+      - "9001:9001"
+
+    environment: #переменные среды)
+      MINIO_ROOT_USER: s1ches
+      MINIO_ROOT_PASSWORD: se1958ps
+
+

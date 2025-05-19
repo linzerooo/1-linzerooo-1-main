@@ -1,0 +1,199 @@
+﻿@model Shared.Requests.Jobs.GetJobFormById.GetJobFormByIdResponse
+
+@{
+    ViewBag.Title = "Finate - Job";
+    Layout = "_Layout";
+}
+
+    <!--== Start Page Header Area Wrapper ==-->
+    <div class="page-header-area sec-overlay sec-overlay-black" data-bg-img="assets/img/photos/bg2.jpg">
+      <div class="container pt--0 pb--0">
+        <div class="row">
+          <div class="col-12">
+            <div class="page-header-content">
+              <h2 class="title">Job Details</h2>
+              <nav class="breadcrumb-area">
+                <ul class="breadcrumb justify-content-center">
+                  <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                  <li class="breadcrumb-sep">//</li>
+                  <li>Job Details</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--== End Page Header Area Wrapper ==-->
+
+    <!--== Start Job Details Area Wrapper ==-->
+    <section class="job-details-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="job-details-wrap">
+              <div class="job-details-info">
+                <div class="thumb">
+                  <img src="~/img/companies/10.jpg" width="130" height="130" alt="Image-HasTech">
+                </div>
+                <div class="content">
+                  <h4 class="title">@Model.JobName</h4>
+                  <h5 class="sub-title">@Model.CompanyName</h5>
+                  <ul class="info-list">
+                    <li><i class="icofont-location-pin"></i>@Model.Address</li>
+                    <li><i class="icofont-phone"></i>@Model.PhoneNumber</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="job-details-price">
+                <h4 class="title">$@Model.Salary <span>/monthly</span></h4>
+                <button type="button" class="btn-theme">Apply Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7 col-xl-8">
+            <div class="job-details-item">
+              <div class="content">
+                <h4 class="title">Description</h4>
+                <p class="desc">@Model.Description</p>
+              </div>
+              <div class="content">
+                <h4 class="title">Responsibilities</h4>
+                <ul class="job-details-list">
+                  @foreach (var responsibility in Model.Responsibilities)
+                  {
+                    <li><i class="icofont-check"></i>@responsibility</li>
+                  }
+                </ul>
+              </div>
+              <div class="content">
+                <h4 class="title">Requirements</h4>
+                <ul class="job-details-list">
+                  @foreach (var workRequirement in Model.WorkRequirements)
+                  {
+                    <li><i class="icofont-check"></i>@workRequirement</li>
+                  }
+                </ul>
+              </div>
+              <div class="content">
+                <h4 class="title">Educational Requirements</h4>
+                <ul class="job-details-list">
+                @foreach (var educationalRequirement in Model.EducationalRequirements)
+                {
+                  <li><i class="icofont-check"></i>@educationalRequirement</li>
+                }
+                </ul>
+              </div>
+              <div class="content">
+                <h4 class="title">Working Hours</h4>
+                <ul class="job-details-list">
+                  @foreach (var workingHours in Model.EducationalRequirements)
+                  {
+                  <li><i class="icofont-check"></i>@workingHours</li>
+                  }
+                </ul>
+              </div>
+              <div class="content">
+                <h4 class="title">Benefits</h4>
+                <ul class="job-details-list">
+                  @foreach (var benefit in Model.Benefits)
+                  {
+                  <li><i class="icofont-check"></i>@benefit</li>
+                  }
+                  </ul>
+              </div>
+              <div class="content">
+                <h4 class="title">Statement</h4>
+                <p class="desc">@Model.Statement</p>
+                <a class="btn-apply-now" href="contact.html">Apply Now <i class="icofont-long-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-xl-4">
+            <div class="job-sidebar">
+              <div class="widget-item">
+                <div class="widget-title">
+                  <h3 class="title">Summery</h3>
+                </div>
+                <div class="summery-info">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td class="table-name">Job Type</td>
+                        <td class="dotted">:</td>
+                        <td data-text-color="#03a84e">@Model.JobType</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Category</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.Category</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Posted</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.CreatedDate</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Salary</td>
+                        <td class="dotted">:</td>
+                        <td>$@Model.Salary / Monthly</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Experience</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.ExperienceInYears Years</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Gender</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.Gender</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Level</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.Level</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Applied</td>
+                        <td class="dotted">:</td>
+                        <td>@Model.Applied Applicant</td>
+                      </tr>
+                      <tr>
+                        <td class="table-name">Application End</td>
+                        <td class="dotted">:</td>
+                        <td data-text-color="#ff6000">@Model.ApplicationEnd</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div class="widget-item">
+                <div class="widget-title">
+                  <h3 class="title">Share With</h3>
+                </div>
+                <div class="social-icons">
+                  @foreach (var link in Model.SocialNetworksAndLinks)
+                  {
+                    <a href="@link.Value" target="_blank" rel="noopener"><i class="@link.Key"></i></a>
+                  }
+                </div>
+              </div>
+              <div class="widget-item widget-tag">
+                <div class="widget-title">
+                  <h3 class="title">Tags:</h3>
+                </div>
+                <div class="widget-tag-list">
+                  @foreach (var tag in Model.Tags)
+                  {
+                    <span>@tag</span>
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Job Details Area Wrapper ==-->

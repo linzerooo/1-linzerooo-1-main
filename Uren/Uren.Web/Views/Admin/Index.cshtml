@@ -1,0 +1,36 @@
+﻿@model List<Shared.Requests.Shop.GetShop.ShopModel>
+
+<h2>Product Cards</h2>
+
+<table style="margin-top: 200px">
+    <thead>
+        <tr>
+            <th>CardName</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var card in Model)
+        {
+            <tr>
+                <td>@card.CardName</td>
+                <td>@card.Description</td>
+                <td><img src="@card.ImageSrc.First()" alt="Image of @card.CardName" width="100" /></td>
+                <td>@card.Price</td>
+                <td>
+                    <a href="@Url.Action("Details", new { id = card.Id })">Details</a> |
+                    <a href="@Url.Action("Edit", new { id = card.Id })">Edit</a> |
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@card.Id" />
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create")">Create New Product Card</a>

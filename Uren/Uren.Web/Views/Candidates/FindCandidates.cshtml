@@ -1,0 +1,103 @@
+﻿@using Shared.Requests.Candidates.GetCandidatesFormsByFilter
+@model Shared.Requests.Candidates.GetCandidatesFormsByFilter.GetCandidatesFormsByFilterResponse
+
+@{
+    ViewBag.Title = "Finate - Find Your Candidate";
+    Layout = "_Layout";
+}
+
+<div class="page-header-area sec-overlay sec-overlay-black" data-bg-img="~/img/photos/bg2.jpg">
+    <div class="slider-content-area" data-bg-img="~/img/slider/slider-bg.jpg">
+        <div class="container pt--0 pb--0">
+            <div class="slider-container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12">
+                        <div class="job-search-wrap">
+                            <div class="job-search-form">
+                                <form method="get" asp-controller="Candidates" asp-action="FindCandidates">
+                                    <input type="hidden" name="PageNumber" value="@Model.PageNumber">
+                                    <input type="hidden" name="PageSize" value="@Model.PageSize">
+                                    <div class="row row-gutter-10">
+                                        <div class="col-lg-auto col-sm-6 col-12 flex-grow-1">
+                                            <div class="form-group">
+                                                <input type="text" name="SearchValue" class="form-control" placeholder="Candidate name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-auto col-sm-6 col-12 flex-grow-1">
+                                            <div class="form-group">
+                                                <button type="submit" class="btn-form-search">
+                                                    <i class="icofont-search-1"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--== End Page Header Area Wrapper ==-->
+
+<!--== Start Team Area Wrapper ==-->
+<section class="team-area team-inner2-area">
+    <div class="container">
+        <div class="row">
+            @foreach (var item in Model.CandidatesForms)
+            {
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <!--== Start Team Item ==-->
+                    <div class="team-item">
+                        <div class="thumb">
+                            <a asp-action="CandidateForm" asp-route="@item.CandidateFormId">
+                                <img src="@item.CandidateImagePath" width="160" height="160" alt="Image-HasTech">
+                            </a>
+                        </div>
+                        <div class="content">
+                            <h4 class="title">
+                                <a asp-action="CandidateForm" asp-route="@item.CandidateFormId">@item.FullName</a>
+                            </h4>
+                            <h5 class="sub-title">@item.Category</h5>
+                            <h5>@item.Rating</h5>
+                            <p class="desc">
+                                @{ string.Join(", ", item.TopSkills); }
+                            </p>
+                            <a class="btn-theme btn-white btn-sm" asp-action="CandidateForm" asp-route="@item.CandidateFormId">View Profile</a>
+                        </div>
+                        <div class="bookmark-icon">
+                            <img src="~/img/icons/bookmark1.png" alt="Image-HasTech">
+                        </div>
+                        <div class="bookmark-icon-hover">
+                            <img src="~/img/icons/bookmark2.png" alt="Image-HasTech">
+                        </div>
+                    </div>
+                    <!--== End Team Item ==-->
+                </div>
+            }
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="pagination-area">
+                    <nav>
+                        <ul class="page-numbers d-inline-flex">
+                            @{
+                                var pagesCount = Model.TotalCount % Model.PageSize == 0
+                                        ? Model.TotalCount / Model.PageSize
+                                        : Model.TotalCount / Model.PageSize + 1;
+                            }
+                            @for (var i = 0; i < pagesCount; i++)
+                            {
+                                <li>
+                                    <a class="page-number active" asp-action="FindCandidates" asp-route-request="@{ new GetCandidatesFormsByFilterRequest { PageNumber = i+1, PageSize = Model.PageSize, SearchValue = Model.SearchValue }; }">@(i + 1)</a>
+                                </li>   
+                            }
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

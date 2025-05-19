@@ -1,0 +1,17 @@
+﻿@* @model List<Shared.Requests.Shop.GetShop.ShopModel>
+@{
+    ViewData["Title"] = "Shop";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div style="margin-top: 200px">
+    @foreach (var card in Model)
+    {
+        <div>
+            <h3>@card.CardName</h3>
+            <p>@card.Description</p>
+            <img src="@card.ImageSrc.First()" alt="Image of @card.CardName" />
+        </div>
+    }
+</div> *@

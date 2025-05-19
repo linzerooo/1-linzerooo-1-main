@@ -1,0 +1,13 @@
+C:\Users\79991\Finate\Finate\Finate.Domain\bin\Debug\net8.0\Finate.Domain.deps.json
+C:\Users\79991\Finate\Finate\Finate.Domain\bin\Debug\net8.0\Finate.Domain.dll
+C:\Users\79991\Finate\Finate\Finate.Domain\bin\Debug\net8.0\Finate.Domain.pdb
+C:\Users\79991\Finate\Finate\Finate.Domain\obj\Debug\net8.0\Finate.Domain.csproj.AssemblyReference.cache
+C:\Users\79991\Finate\Finate\Finate.Domain\obj\Debug\net8.0\Finate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\79991\Finate\Finate\Finate.Domain\obj\Debug\net8.0\Finate.Domain.AssemblyInfoInputs.cache
+C:\Users\79991\Finate\Finate\Finate.Domain\obj\Debug\net8.0\Finate.Domain.AssemblyInfo.cs
+C:\Users\79991\Finate\Finate\Finate.Domain\obj\Debug\net8.0\Finate.Domain.csproj.CoreCompileInputs.cache
+C:\Users\79991\Finate\Finate\Finate.Domain\obj\Debug\net8.0\Finate.Domain.sourcelink.json
+C:\Users\79991\Finate\Finate\Finate.Domain\obj\Debug\net8.0\Finate.Domain.dll
+C:\Users\79991\Finate\Finate\Finate.Domain\obj\Debug\net8.0\refint\Finate.Domain.dll
+C:\Users\79991\Finate\Finate\Finate.Domain\obj\Debug\net8.0\Finate.Domain.pdb
+C:\Users\79991\Finate\Finate\Finate.Domain\obj\Debug\net8.0\ref\Finate.Domain.dll

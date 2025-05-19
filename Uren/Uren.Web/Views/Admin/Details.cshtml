@@ -1,0 +1,12 @@
+﻿@model Shared.Requests.Shop.GetShop.ShopModel
+
+<div style="margin-top: 200px">
+    <h2>@Model.CardName</h2>
+    <p>@Model.Description</p>
+    <img src="@Model.ImageSrc.First()" alt="Image of @Model.CardName" width="300" />
+    <p>Price: @Model.Price</p>
+
+    <a href="@Url.Action("Edit", new { id = Model.Id })">Edit</a> |
+    <a href="@Url.Action("Index")">Back to List</a>
+
+</div>

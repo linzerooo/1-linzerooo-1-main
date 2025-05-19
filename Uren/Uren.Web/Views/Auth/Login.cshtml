@@ -1,0 +1,57 @@
+@model Shared.Requests.Auth.PostLogin.PostLoginRequest
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "_Layout";
+}
+
+<div class="page-header-area sec-overlay sec-overlay-black" data-bg-img="assets/img/photos/bg2.jpg">
+    <!--== Start Login Area Wrapper ==-->
+    <section class="account-login-area">
+      <div class="container">
+            <div class="row justify-content-center" style="margin-top: 100px">
+          <div class="col-md-8 col-lg-7 col-xl-6">
+            <div class="login-register-form-wrap">
+              <div class="login-register-form">
+                <div class="form-title">
+                  <h4 class="title">Sign In</h4>
+                </div>
+                <form asp-controller="Auth" asp-action="Login" method="post">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="form-group">
+                        <input class="form-control" type="email" asp-for="Email" placeholder="Email">
+                        <span asp-validation-for="Email"></span>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <input class="form-control" type="password" asp-for="Password" placeholder="Password">
+                        <span asp-validation-for="Password"></span>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <div class="remember-forgot-info">
+                          <div class="forgot-password">
+                            <a asp-controller="Auth" asp-action="ResetPassword">Forgot Password?</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <button type="submit" class="btn-theme">Sign In</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="login-register-form-info">
+                  <p>Don't you have an account? <a asp-controller="Auth" asp-action="Register">Register</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

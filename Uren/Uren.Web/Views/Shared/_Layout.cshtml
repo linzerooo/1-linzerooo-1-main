@@ -1,0 +1,438 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>@ViewData["Title"]</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Finate - Job Portal"/>
+    <meta name="keywords" content="accessories, digital products, electronic html, modern, products, responsive"/>
+    <link rel="shortcut icon" href="~/img/favicon.ico" type="image/x-icon" />
+
+    <meta name="author" content="hastech"/>
+    <!--== Bootstrap CSS ==-->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <!--== Icofont Icon CSS ==-->
+    <link href="~/css/icofont.css" rel="stylesheet" />
+    <!--== Swiper CSS ==-->
+    <link href="~/css/swiper.min.css" rel="stylesheet" />
+    <!--== Fancybox Min CSS ==-->
+    <link href="~/css/fancybox.min.css" rel="stylesheet" />
+    <!--== Aos Min CSS ==-->
+    <link href="~/css/aos.min.css" rel="stylesheet" />
+
+    <!--== Main Style CSS ==-->
+    <link href="~/css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://direct-motors.com/home/assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="https://direct-motors.com/home/assets/css/vendor/font-awesome.css">
+    <link rel="stylesheet" href="https://direct-motors.com/home/assets/css/vendor/fontawesome-stars.css">
+    <link rel="stylesheet" href="https://direct-motors.com/home/assets/css/vendor/ion-fonts.css">
+    <link rel="stylesheet" href="https://direct-motors.com/home/assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="https://direct-motors.com/home/assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="https://direct-motors.com/home/assets/css/plugins/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://direct-motors.com/home/assets/css/plugins/lightgallery.min.css">
+    <link rel="stylesheet" href="https://direct-motors.com/home/assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="https://direct-motors.com/home/assets/css/style.css">
+</head>
+<body>
+    <div class="mobile-menu_wrapper" id="mobileMenu">
+        <div class="offcanvas-menu-inner">
+            <div class="container">
+                <a href="#" class="btn-close"><i class="ion-android-close"></i></a>
+                <div class="offcanvas-inner_search">
+                    <form action="#" class="inner-searchbox">
+                        <input type="text" placeholder="Kërko për artikullin...">
+                        <button class="search_btn" type="submit"><i class="ion-ios-search-strong"></i></button>
+                    </form>
+
+                <nav class="offcanvas-navigation">
+                    <ul class="mobile-menu">
+                        <li class="menu-item-has-children active">
+                            <a href="https://direct-motors.com">
+                                <span class="mm-text">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">
+                                <span class="mm-text">Rreth Nesh</span>
+                            </a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">
+                                <span class="mm-text">Kontaktoni</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="wrapper">
+    <header style="background-color: #272a33" class="header-area transparent">
+            <div class="main-wrapper">
+                <!-- Begin Loading Area -->
+                <div class="loading" style="display: none;">
+                    <div class="text-center middle">
+                        <div class="lds-ellipsis">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Loading Area End Here -->
+                <!-- Begin Uren's Header Main Area -->
+                <header class="header-main_area bg--sapphire">
+                    <div class="header-top_area d-lg-block d-none">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xl-7 col-lg-8">
+                                    <div class="main-menu_area position-relative">
+                                        <nav class="main-nav">
+                                            <ul>
+                                                <li><a href="https://direct-motors.com">Home</a></li>
+                                                <li class=""><a href="#">Rreth Nesh</a></li>
+                                                <li class=""><a href="#">Kontaktoni</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="header-middle_area">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="custom-logo_col col-12">
+                                    <div class="header-logo_area">
+                                        <a href="/home">
+                                            <img src="https://direct-motors.com/home/assets/images/menu/logo/1.png" alt="Uren's Logo">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="custom-category_col col-12">
+                                <div class="category-menu category-menu-hidden">
+                                    <div class="category-heading">
+                                        <h2 class="categories-toggle">
+                                            <span>Bleni Sipas</span>
+                                            <span>Llojitë</span>
+                                        </h2>
+                                    </div>
+                                    <div id="cate-toggle" class="category-menu-list" style="display: none;">
+                                        <ul>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/1/sedan">
+                                                    Sedan
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/2/suv">
+                                                    SUV
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/3/coupe">
+                                                    Coupe
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/4/hatchback">
+                                                    Hatchback
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/5/convertible">
+                                                    Convertible
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/6/station-wagon">
+                                                    Station Wagon
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/7/minivan">
+                                                    Minivan
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/8/pickup-truck">
+                                                    Pickup Truck
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/9/sports-car">
+                                                    Sports Car
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/10/hybrid/electric-vehicles">
+                                                    Hybrid/Electric Vehicles
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/11/luxury-vehicles">
+                                                    Luxury Vehicles
+                                                </a>
+                                            </li>
+                                                                                        <li>
+                                                <a href="https://direct-motors.com/category/12/compact-and-subcompact-cars">
+                                                    Compact and Subcompact Cars
+                                                </a>
+                                            </li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="custom-search_col col-12">
+                                    <div class="hm-form_area">
+                                        <form action="#" class="hm-searchbox">
+                                            <select class="nice-select select-search-category" style="display: none;">
+                                                <option value="0">Të gjitha Markat</option>
+                                                <option value="1">Toyota</option>
+                                                <option value="2">Volkswagen</option>
+                                                <option value="3">Ford</option>
+                                                <option value="4">Honda</option>
+                                                <option value="5">Chevrolet</option>
+                                                <option value="6">Mercedes-Benz</option>
+                                                <option value="7">BMW</option>
+                                                <option value="8">Nissan</option>
+                                                <option value="9">Hyundai</option>
+                                                <option value="10">Kia</option>
+                                            </select><div class="nice-select select-search-category" tabindex="0"><span class="current">Të gjitha Markat</span><ul class="list"><li data-value="0" class="option selected">Të gjitha Markat</li><li data-value="1" class="option">Toyota</li><li data-value="2" class="option">Volkswagen</li><li data-value="3" class="option">Ford</li><li data-value="4" class="option">Honda</li><li data-value="5" class="option">Chevrolet</li><li data-value="6" class="option">Mercedes-Benz</li><li data-value="7" class="option">BMW</li><li data-value="8" class="option">Nissan</li><li data-value="9" class="option">Hyundai</li><li data-value="10" class="option">Kia</li></ul></div>
+                                            <input type="text" placeholder="Fut çelësin e kërkimit...">
+                                            <button class="header-search_btn" type="submit">
+                                                <i class="ion-ios-search-strong">
+                                                    <span>Kërko</span>
+                                                </i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="custom-cart_col col-12">
+                                    <div class="header-right_area">
+                                        <ul>
+                                            <li class="mobile-menu_wrap d-flex d-lg-none">
+                                                <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn color--white">
+                                                    <i class="ion-navicon"></i>
+                                                </a>
+                                            </li>
+                                            <li class="contact-us_wrap" style="width: 30%; display: inline-block; background: transparent">
+                                                    <div class="header-action-ara">
+                                                        @if (User.Identity is { IsAuthenticated: false })
+                                                        {
+                                                             <li style="display: inline-block; margin-left: -30px;">
+                                                                <a  style="color:#ffc400" href="/Auth/Register">Register</a>
+                                                            </li>
+                                                            <li style="display: inline-block; margin-left: -30px;">
+                                                                <a style="color:#ffc400" href="/Auth/Login">Log in</a>
+                                                            </li>
+                                                        }
+                                                        else if (User.IsInRole("Admin"))
+                                                        {
+                                                            <a class="btn-registr" href="/Admin">Admin Panel</a>
+                                                        }
+                                                        else
+                                                        {
+
+                                                            <a class="btn-registr" href="/Account/MyProfile">Profile</a>
+                                                        }
+                                                        <button class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
+                                                            <i class="icofont-navigation-menu"></i>
+                                                        </button
+                                                </div>
+                                            </li>
+                                                        
+                                                 <a style="font-size: 30px" href="/cart" >Go to Cart</a>
+                                            </h2>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+            </div>
+      </header>
+
+      <main class="main-content">
+          @RenderBody()
+      </main>
+
+        <footer class="footer-area">
+            <div class="uren-footer_area">
+                <div class="footer-top_area">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="newsletter-area">
+                                    <h3 class="title">Join Our Newsletter Now</h3>
+                                    <p class="short-desc">Get E-mail updates about our latest shop and special offers.</p>
+                                    <div class="newsletter-form_wrap">
+                                        <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="newsletters-form validate" target="_blank" novalidate="">
+                                            <div id="mc_embed_signup_scroll">
+                                                <div id="mc-form" class="mc-form subscribe-form">
+                                                    <input id="mc-email" class="newsletter-input" type="email" autocomplete="off" placeholder="Enter your email">
+                                                    <button class="newsletter-btn" id="mc-submit">Subscribe</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-middle_area">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="footer-widgets_info">
+                                    <div class="footer-widgets_logo">
+                                        <a href="#">
+                                            <img src="https://direct-motors.com/home/assets/images/menu/logo/1.png" alt="Uren's Footer Logo">
+                                        </a>
+                                    </div>
+                                    <div class="widget-short_desc">
+                                        <p>
+                                            Ne jemi këtu për t'ju ofruar makinat më të mira me një çmim super të arsyeshëm
+                                        </p>
+                                    </div>
+                                    <div class="widgets-essential_stuff">
+                                        <ul>
+                                            <li class="uren-address">
+                                                <span>Adresa:</span>Sheshi Willson,Tiranë, 1001, Shqipëri
+                                            </li>
+                                            <li class="uren-phone">
+                                                <span>Na telefononi:</span>
+                                                <a href="tel://+123123321345">+123 321 345</a>
+                                            </li>
+                                            <li class="uren-email">
+                                                <span>Email:</span>
+                                                <a href="mailto:info@direct-motors.com">info@direct-motors.com</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="uren-social_link">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/" data-toggle="tooltip" target="_blank" title="" data-original-title="Facebook">
+                                                    <i class="fab fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="#" data-toggle="tooltip" target="_blank" title="" data-original-title="Instagram">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="footer-widgets_area">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="footer-widgets_title">
+                                                <h3>Informacion</h3>
+                                            </div>
+                                            <div class="footer-widgets">
+                                                <ul>
+                                                    <li><a href="javascript:void(0)">Rreth Nesh</a></li>
+                                                    <li><a href="javascript:void(0)">Politika e privatësisë</a></li>
+                                                    <li><a href="javascript:void(0)">Termat &amp; Kushtet</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+                                            <div class="footer-widgets_title">
+                                                <h3>Shërbimi Ndaj Klientit</h3>
+                                            </div>
+                                            <div class="footer-widgets">
+                                                <ul>
+                                                    <li><a href="javascript:void(0)">Na Kontaktoni</a></li>
+                                                    <li><a href="javascript:void(0)">Vendndodhja</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom_area">
+                    <div class="container-fluid">
+                        <div class="footer-bottom_nav">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="copyright">
+                                        <span><a href="https://thelogicview.com/">LogicView</a></span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="payment">
+                                        <a href="#">
+                                            <img src="https://direct-motors.com/home/assets/images/footer/payment/1.png" alt="Uren's Payment Method">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      
+      <aside class="off-canvas-wrapper offcanvas offcanvas-start" tabindex="-1" id="AsideOffcanvasMenu" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h1 class="d-none" id="offcanvasExampleLabel">Aside Menu</h1>
+            <button class="btn-menu-close" data-bs-dismiss="offcanvas" aria-label="Close">menu <i class="icofont-simple-left"></i></button>
+          </div>
+          <div class="offcanvas-body">
+            <!-- Mobile Menu Start -->
+            <div class="mobile-menu-items">
+              <ul class="nav-menu">
+                <li><a href="/Home/Index">Home</a></li>
+                <li><a href="/Jobs/FindJobs">Find Jobs</a>
+                </li>
+                <li><a href="/Candidates/FindCandidates">Candidates</a>
+                </li>
+                <li><a href="Contact/OurContacts">Contact</a></li>
+              </ul>
+            </div>
+            <!-- Mobile Menu End -->
+          </div>
+        </aside>
+
+</div>
+<!--=== jQuery Modernizr Min Js ===-->
+<script src="~/js/modernizr.js"></script>
+<!--=== jQuery Min Js ===-->
+<script src="~/js/jquery-main.js"></script>
+<!--=== jQuery Migration Min Js ===-->
+<script src="~/js/jquery-migrate.js"></script>
+<!--=== jQuery Popper Min Js ===-->
+<script src="~/js/popper.min.js"></script>
+<!--=== jQuery Bootstrap Min Js ===-->
+<script src="~/js/bootstrap.min.js"></script>
+<!--=== jQuery Swiper Min Js ===-->
+<script src="~/js/swiper.min.js"></script>
+<!--=== jQuery Fancybox Min Js ===-->
+<script src="~/js/fancybox.min.js"></script>
+<!--=== jQuery Aos Min Js ===-->
+<script src="~/js/aos.min.js"></script>
+<!--=== jQuery Counterup Min Js ===-->
+<script src="~/js/counterup.js"></script>
+<!--=== jQuery Waypoint Js ===-->
+<script src="~/js/waypoint.js"></script>
+
+<!--=== jQuery Custom Js ===-->
+<script src="~/js/custom.js"></script>
+</body>
+</html>

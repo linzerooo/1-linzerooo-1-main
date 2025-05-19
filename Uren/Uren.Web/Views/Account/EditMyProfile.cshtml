@@ -1,0 +1,30 @@
+﻿@model Shared.Requests.Account.PatchEditMyProfile.PatchEditMyProfileRequest
+
+@{
+    ViewBag.Title = "Finate - Edit My Profile";
+    Layout = "_Layout";
+}
+
+<div class="container mt-5" xmlns="http://www.w3.org/1999/html">
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-title">
+            <h4 class="title">Edit User Info</h4>
+        </div>
+        <form asp-action="EditMyProfile" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <input type="text" asp-for="UserName" placeholder="User Name"/>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <button type="submit" class="btn-theme">Edit info</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</div>

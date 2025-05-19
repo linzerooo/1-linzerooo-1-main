@@ -1,0 +1,36 @@
+﻿@model Shared.Requests.Contact.PostSendEmail.PostSendEmailRequest
+
+@{
+    ViewBag.Title = "Finate - Contact";
+    Layout = "_Layout";
+}
+ <!--== Start Contact Form ==-->
+    <div class="contact-form">
+        <h4 class="contact-form-title">Get in Touch</h4>
+        <form id="contact-form" asp-action="SendEmail" asp-controller="Contact" method="POST">
+            <input type="hidden" asp-for="FormId" value="@Model.FormId"/>
+            <input type="hidden" asp-for="NeedSendToCandidate" value="@Model.NeedSendToCandidate"/>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="Name" type="text" name="con_name" placeholder="Name:">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <input class="form-control" asp-for="FromEmail" type="email" name="con_email" placeholder="Email:">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <textarea class="form-control" name="con_message" asp-for="Message" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group mb--0">
+                        <button class="btn-theme d-block w-100" type="submit">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>

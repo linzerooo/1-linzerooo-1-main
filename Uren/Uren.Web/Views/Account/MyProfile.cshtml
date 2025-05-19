@@ -1,0 +1,76 @@
+﻿@using Finate.Domain.BaseValues
+@model Shared.Requests.Account.GetMyProfile.GetMyProfileResponse
+
+@{
+    ViewBag.Title = "Finate - Your Profile";
+    Layout = "_Layout";
+    var profileImageUrl = string.IsNullOrWhiteSpace(Model.UserPhotoUrl) ? "https://cdn-icons-png.flaticon.com/512/4837/4837857.png" : Model.UserPhotoUrl;
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <!-- Имя -->
+            <h2>@Model.UserName</h2>
+            <a asp-action="EditMyProfile" asp-controller="Account"><button class="btn btn-primary mr-2">Изменить данные аккаунта</button></a>
+        </div>
+        @if (User.IsInRole(BaseRoles.CandidateRole.Name!) && Model.Forms.Any())
+        {
+            <div class="col-md-8">
+                <!-- Резюме -->
+                <div class="card">
+                    <div class="card-header">
+                        Ваше резюме
+                    </div>
+                    <div class="card-body">
+                        <!-- Кнопки управления -->
+                        <div class="mb-3">
+                            <button class="btn btn-primary mr-2">Изменить</button>
+                            <button class="btn btn-danger mr-2">Удалить</button>
+                            <button class="btn btn-secondary">Сделать неактивным</button>
+                        </div>
+                        <!-- Название профессии -->
+                        <h4>@Model.Forms.First().FormName</h4>
+                        <!-- Рейтинг -->
+                        <div class="mb-3">
+                            <strong>Рейтинг:</strong>
+                            <span>@Model.Forms.First().Rating</span> <!-- Ваш рейтинг -->
+                        </div>
+                        <!-- Кнопка "Посмотреть содержание резюме" -->
+                        <a asp-controller="Candidates" asp-action="CandidateForm" asp-route-candidateFormId="@Model.Forms.First().FormId"><button class="btn btn-info">Посмотреть содержание резюме</button></a>
+                    </div>
+                </div>
+            </div>
+        }else if (Model.Forms.Any())
+        {
+            foreach (var form in Model.Forms)
+            {
+                <div class="col-md-8">
+                    <!-- Резюме -->
+                    <div class="card">
+                        <div class="card-header">
+                            Ваше вакансия
+                        </div>
+                        <div class="card-body">
+                            <!-- Кнопки управления -->
+                            <div class="mb-3">
+                                <button class="btn btn-primary mr-2">Изменить</button>
+                                <button class="btn btn-danger mr-2">Удалить</button>
+                                <button class="btn btn-secondary">Сделать неактивным</button>
+                            </div>
+                            <!-- Название профессии -->
+                            <h4>@form.FormName</h4>
+                            <!-- Рейтинг -->
+                            <div class="mb-3">
+                                <strong>Рейтинг:</strong>
+                                <span>@form.Rating</span> <!-- Ваш рейтинг -->
+                            </div>
+                            <!-- Кнопка "Посмотреть содержание резюме" -->
+                            <a asp-controller="Jobs" asp-action="JobForm" asp-route-jobFormId="@form.FormId"><button class="btn btn-info">Посмотреть содержание вакансии</button></a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>
